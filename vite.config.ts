@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
-    base: '/masoomi/', // Must match your GitHub repository name exactly
+    base: 'https://theclickcreateco.github.io/masoomi/', // Must match your GitHub repository name exactly
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
